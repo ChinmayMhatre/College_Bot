@@ -1,0 +1,90 @@
+{
+    "intents":[
+        {
+            "tag": "greetings",
+            "patterns": ["Hello", "Hey", "Hi", "what's up?", "hola", "How are you?","Good Morning", "Good Afternoon", "Good Evening"],
+            "responses": ["Hello", "Heya", "Hi", "What can I do for you?"]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye", "Bye bye", "see you"],
+            "responses": ["Bubye! Make sure to check out Alegria's website  ",
+                        "Goodbye!Make sure to check out Alegria's website ", 
+                        "Have a great day! Make sure to check out Alegria's website ", 
+                        "see you! Make sure to check out Alegria's website "]
+        },
+        {
+            "tag": "name",
+            "patterns": ["What is your name ?", "What should I call you?","Tell me about yourself"],
+            "responses": ["My name is AlegriaBOT, I can help you with queries related to the biggest college festival in navi mumbai"]
+        },
+        {
+            "tag": "describe",
+            "patterns": ["What is Alegria?", "What do you know about Alegria?","Tell me about Alegria"],
+            "responses": ["he Pillai Group of Institutions’ exhilarating intercollegiate event Alegria The Festival of Joy,\n is one of the most fabulous festivals of its kind in India with a footfall of over 50,000,\n all gathered to be in the presence of magnificent talent and star celebrities.\n The Festival of Joy is an increasingly thriving annual event with changing themes including last year’s 'Dreamland'\n and this year’s theme 'Light the Night'"]
+        },
+        {
+            "tag": "celeb",
+            "patterns": ["which celebrities have been a part of alegria?", "which celebrities have performed in alegria?"],
+            "responses": ["Celebrities like Ayushman khurana, siddharth malholtra and many more have performed in Alegria",
+                "Celebrities like Kenny sebastian, arman malik and many more have performed in Alegria",
+                "Celebrities like Govinda, Kartik Aryan and many more have performed in Alegria",
+                "Celebrities like Guru Randhawa, Lauren Gottlieb and many more have performed in Alegria",
+                " Bollywood celebrities such as Ranbir Kapoor, Deepika Padukone, Ayushman Khurrana, Siddhart Malhotra, Sonam Kapoor, Karthik Aryan ,\n Nushrat Bharucha, Sunny Nijhar, Govinda, Elli Avram, Saquib Salim, Zayed Khan, Rakul Preet Kaur,\n Lauren Gottlieb, Jackky Bhagani, Ran Vijay Singha, Pallavi Sharda, Warina Hussain,\n Pushkar Jog, Sarah Jane Diad, Aaparshakti Khurrana, Varun Dhawan, Shraddha Kapoor,\n Aisha Sharma, Shama Sikander, Rinku Rajguru, Chinmay Udgirkar,\n Sonali Seygall, Adah Sharma, Rohan Mehra, Nibedita Pal, Chetna Pande",
+                "Indian beatbox sensation D cypher and dance gurus Rahul Shetty and Dhanashree Verma have stepped on the Alegrian dais to promote their\n movies to the incredible crowd attending the festival and to judge the spectacular events",
+                "Sports world champions Bhaichung Bhutiya, Sunil Chhetri, Ashwini Ponnappa, Sahil Khan,\n Sangram Chougule, Murali Kumar Syed Kirmani and Rushabh Choksi along with his Spartan army have also visited to showcase\n their talents and to encourage the budding stars in their respective sport"
+            ]
+        },
+        {
+            "tag": "location",
+            "patterns": ["Where does alegria happen?"],
+            "responses": ["Alegria happens at Pillai College Of Engineering, new Panvel"]
+        },
+        {
+            "tag": "Sponsors",
+            "patterns": ["who are all the sponsors for alegria?","sponsors","Who sponsors Alegria"],
+            "responses": ["Here are some of our sponsors \n Federal Bank \n Wonderwheel\n Apparel Partner\n Programming Hub\n WanderWorld"
+            ]
+        },
+        {
+            "tag" : "Started",
+            "patterns": ["When was alegria started?" ,"Start of Alegria"], 
+            "responses": ["Alegria was started in 2013" , "First Alegria took place in 2013"]
+        },
+        {
+            "tag" : "Passes",
+            "patterns": ["When will we get the passes?" , "Passes"], 
+            "responses": ["You will get passes 2-3 weeks before alegria" , "Will get passes 1 month before alegia"]
+        },
+        {
+            "tag": "events",
+            "patterns": ["What events occur in alegria?", "What all events happen in alegria?","What happens in alegria?"],
+            "responses": ["Amazing events of Technical, informal, gaming, sports and much much happen in Alegria","Concerts by celebs, Comedy nights, Dance competition and much more"]
+        },
+        {
+            "tag": "Light The Nigh",
+            "patterns": ["theme of Alegria 2021", "What was the theme of Alegria 2021","2021"],
+            "responses": ["The Theme of Alegria 2021 was \" Light The Night \" "]
+        },
+        {
+            "tag": "Dreamland",
+            "patterns": ["theme of Alegria 2020", "What was the theme of Alegria 2020","2020"],
+            "responses": ["The Theme of Alegria 2020 was \" Dreamland \" "]
+        },
+        {
+            "tag": "Cosmos",
+            "patterns": ["theme of Alegria 2019", "What was the theme of Alegria 2019","2019"],
+            "responses": ["The Theme of Alegria 2019 was \" Cosmos \" "]
+        },
+        {
+            "tag": "Mumbai The City Of Dreams",
+            "patterns": ["theme of Alegria 2018", "What was the theme of Alegria 2018","2018"],
+            "responses": ["The Theme of Alegria 2018 was \" Mumbai The City Of Dreams \" "]
+        },
+        {
+            "tag": "Kingdom Of Games",
+            "patterns": ["theme of Alegria 2017", "What was the theme of Alegria 2017","2017"],
+            "responses": ["The Theme of Alegria 2017 was \" Kingdom Of Games \" "]
+        }
+    ]
+}
